@@ -182,7 +182,8 @@
       "padding": "0px",
       "margin": "0px",
       "border":"none",
-      "border-bottom": "1px solid #555"
+      "border-bottom": "1px solid #555",
+      "font-size": "13px"
     });
     input.className = "attr_"+attr;
     input.spellcheck = false;
