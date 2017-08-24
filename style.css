@@ -1,0 +1,27 @@
+.ex1{
+  height:200px;
+  width:100%;
+  padding:50px;
+  background-color:#e9e9e9;
+}
+.ex1_1{
+  height: 20px;
+  width:200px;
+  margin: 10px auto;
+  background-color: #bbb;
+}
+.ex1_2{
+  height: 50px;
+  width: 500px;
+  background-color: aqua;
+  margin: 40px auto;
+  padding: 20px;
+}
+.ex2{
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+}
