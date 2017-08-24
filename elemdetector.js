@@ -1,4 +1,3 @@
-
   var st = document.createElement("style");
   st.innerHTML = ".highlight{ background-color: black; opacity: 0.7; box-shadow: 0 0 5px 5px #056aff;}";
   $("head").append(st);
@@ -37,7 +36,6 @@
         $(".attr_padding")[0].value = $this.css("padding");
         $(".attr_float")[0].value = $this.css("float");
         $(".attr_innerHTML")[0].value = this.innerHTML;
-        console.log(this.tagName);
       });
     });
   }
@@ -69,7 +67,8 @@
 
       var ecWinTitleCss = {
         "padding-left":"10px",
-        "float":"left"
+        "float":"left",
+        "font-size": "17px"
       };
 
       var ecWinTopCss = {
@@ -178,9 +177,11 @@
     var input = document.createElement("input");
     input.type = "text";
     $(input).css({
-      "height": "13px",
+      "height": "16px",
       "padding": "0px",
-      "margin": "0"
+      "margin": "0px",
+      "border":"none",
+      "border-bottom": "1px solid #555"
     });
     input.className = "attr_"+attr;
     input.spellcheck = false;
