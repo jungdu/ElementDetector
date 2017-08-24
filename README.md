@@ -14,7 +14,7 @@
 
     var sc = document.createElement("script");
     sc.src = "https://code.jquery.com/jquery-3.2.1.js";
-    document.getElementsByTagName("head")[0].append(sc);
+    document.getElementsByTagName("head")[0].appendChild(sc);
 
     위의 코드를 복사하여 console 창에 붙여 넣습니다.
     페이지 내에서 jqeury가 import 되어 있다면 3번 과정은 생략 가능합니다.
