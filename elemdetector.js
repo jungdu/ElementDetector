@@ -178,6 +178,7 @@
     input.type = "text";
     $(input).css({
       "height": "16px",
+      "line-height": "16px",
       "padding": "0px",
       "margin": "0px",
       "border":"none",
