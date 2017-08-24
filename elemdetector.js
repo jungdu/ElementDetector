@@ -215,17 +215,11 @@
               // values: e.clientX, e.clientY, e.pageX, e.pageY
               var diffX = e1.clientX - startX;
               var diffY = e1.clientY - startY;
-              destTop = elemTop + diffY;
-              destLeft = elemLeft + diffX;
               $elem.css("top", destTop);
               $elem.css("left", destLeft);
           });
           $(document).mouseup(function () {
               $(document).off("mousemove");
-              dragPos.top = destTop;
-              dragPos.left = destLeft;
-              $(".ec_win").css("top", destTop+"px");
-              $(".ec_win").css("left", destLeft+"px");
           });
       });
   }
