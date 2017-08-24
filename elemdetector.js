@@ -1,7 +1,4 @@
-  // jquery dependency
-  // var sc = document.createElement("script");
-  // sc.src = "https://code.jquery.com/jquery-3.2.1.js";
-  // document.getElementsByTagName("head")[0].append(sc);
+
   var st = document.createElement("style");
   st.innerHTML = ".highlight{ background-color: black; opacity: 0.7; box-shadow: 0 0 5px 5px #056aff;}";
   $("head").append(st);

@@ -17,9 +17,11 @@
     document.getElementsByTagName("head")[0].append(sc);
 
     위의 코드를 복사하여 console 창에 붙여 넣습니다.
-    페이지 내에서 jqeury가 import 되어 있다면 3)은 생략 가능합니다.
+    페이지 내에서 jqeury가 import 되어 있다면 3번 과정은 생략 가능합니다.
 
 ### 4. elemdetector.js 전문 붙여넣기
+
+    elemdetector.js 파일내의 전체 문장을 복사하여 console 창에 붙여 넣습니다.
 
 
 위의 과정을 따르면 ElementDetector 창이 뜨는것을 확인할 수 있습니다. <br>
